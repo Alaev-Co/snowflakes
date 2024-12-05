@@ -1,3 +1,7 @@
+.snowball-box {
+  pointer-events: none;
+  user-select: none;
+}
 .snowflakes-box {
   position: fixed;
   top: 0;
@@ -10,6 +14,8 @@
   border-radius: 50%;
   color: #a6e7ff;
   font-family: FontAwesome;
+  pointer-events: none;
+  user-select: none;
 }
 .snowflakes-box .snowflake:nth-child(1) {
   opacity: 1.0296;
@@ -2712,8 +2718,6 @@
   }
 }
 
-.snowball-box {
-}
 .snowball-box .snow-layer {
   position: fixed;
   left: 0;
